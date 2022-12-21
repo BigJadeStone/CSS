@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outter {
+            overflow: hidden;
+            width: 1600px;
+            margin: 0 auto;
+        }
+
+        .box {
+            float: left;
+        }
+
+        .leftbox {
+            border: 1px solid #777;
+            width: 1020px;
+            height: 310px;
+            box-sizing: border-box;
+        }
+
+        .middlebox {
+            border: 3px solid #777;
+            width: 236px;
+            height: 310px;
+            margin-left: 8px;
+            box-sizing: border-box;
+        }
+
+
+        .rightbox {
+            border: 1px solid #777;
+            width: 280px;
+            height: 310px;
+            margin-left: 8px;
+            box-sizing: border-box;
+        }
+
+        .leftbox {
+            overflow: hidden;
+        }
+
+        .leftbox .potobox {
+            width: 33.3333%;
+            height: 155px;
+            border: 1px solid #777;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .rightbox .rightboxinner{
+            height: 50.0000%;
+            border:1px solid #777;
+            box-sizing: border-box;
+        }
+
+        .rightbox .high{
+            overflow:hidden;
+            padding-top:50px;
+        }
+
+        .rightbox .high .text{
+            font-size: 12px;
+            color: silver;
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+        .rightbox .high .safemelon{
+            float: left;
+        }
+        .rightbox .high .logintext{
+            float: right;
+        }
+
+        .loginbutton{
+            margin-top:22px;
+            text-align: center;
+        }
+
+        .rightbox .high .loginbutton button{
+            background-color: #19ce60;
+            border:none;
+            color: white;
+            width: 170px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="outter">
+        <div class="box leftbox">
+            <div class="potobox">사진</div>
+            <div class="potobox">사진</div>
+            <div class="potobox">사진</div>
+            <div class="potobox">사진</div>
+            <div class="potobox">사진</div>
+            <div class="potobox">사진</div>
+        </div>
+        <div class="box middlebox">
+            <img src="img/bgimg.png">
+        </div>
+        <div class="box rightbox">
+            <div class="rightboxinner high">
+                <div class="text" >
+                    <span class="safemelon">멜론을 더 안전하게 이용하세요</span>
+                    <span class="logintext";  >회원가입</span>
+                </div>
+                <div class="loginbutton">
+                    <button type:"button"; >로그인</button>
+                </div>
+            </div>
+            <div class="rightboxinner low">
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
