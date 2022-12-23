@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{margin:0; padding:0;}
+        .outter {
+            margin: 0 auto;
+            width: 500px;
+            border: 2px solid #000;
+            overflow:hidden;
+            position: relative;
+        }
+        .position img{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .content{
+            padding-left: 120px;
+            padding-top: 20px;
+            width: 72.0000%;
+            height: 400px;
+            overflow:hidden;
+        }
+
+        .content textarea{
+            width:100.0000%;
+            height:80.0000%;
+            box-sizing: border-box;
+            /* resize: none; */
+            resize: vertical;
+        }
+
+        .left{
+            float:left;
+            overflow: hidden;
+        }
+        .left input{
+            display: block;
+            width:130px;
+            margin: 5px 0;
+        }
+        .right{
+            margin-top: 5px;
+            float:right;
+            width:60px;
+        }
+        
+        .wrap{
+            position:relative;
+        }
+
+        .pos2{
+            position:absolute;
+            left: 5px;
+        }
+
+        .content2{
+            height: 70px;
+            padding-left: 60px;
+            overflow: hidden;
+        }
+
+        .content2 .left2{
+            float:left;
+        }
+
+        .content2 .left2 span{
+            display: block;
+        }
+
+        .content2 .right2{
+            float:right;
+            padding-top: 40px;
+        }
+
+        .outter img{width: 60px;}
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="outter"><!--margin: 0 auto-->
+        <div class="position"><!--포지션-->
+            <img src="img/bgimg.png" alt="로고">
+        </div>
+
+        <div class="content"><!--패딩left-->
+            <textarea>이미지 영역을 position:absolute를 사용합니다.</textarea>
+            <div class="left"><!--float:left-->
+                <input type="text">
+                <input type="text">
+            </div>
+            <button type="button"; class="right">등록</button><!--float:right-->
+        </div>
+    </div>
+
+    <div class="outter">
+        <div class="wrap">
+            <div class="pos2">
+                <img src="img/bgimg.png" width="50" alt="로고">
+            </div>
+            <div class="content2">
+                <div class="left2">
+                    <span>제목</span>
+                    <span>내용</span>
+                </div>
+                <div class="right2">
+                    <button type="button">수정</button>
+                    <button type="button">삭제</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+</html>
