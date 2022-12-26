@@ -1,0 +1,114 @@
+*{padding: 0px; margin: 0px; list-style: none; box-sizing: border-box;}
+img{max-width: 100%; height: auto;}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container .row .head{
+    margin-top: 20px;
+}
+.container .row .head h2{
+    font-family: inherit;
+    font-weight: 500;
+    margin-right: 0px;
+}
+.container .row .head h2 small{
+    font: size 65%;
+}
+
+/*======detail-ino======*/
+.title{
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+.detail-info .price{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.detail-info .price strong{
+    font-weight: 700;
+    font-size: 30px;
+}
+.detail-info .delivery{
+    color: #888;
+}
+
+/*==== detail-control====*/
+.detail-control .price{
+    overflow: hidden;
+}
+.detail-control .left{
+    float: left;
+    line-height: 45px;
+    font-size: 18px;
+
+}
+.detail-control .right{
+    float: right;
+    font-weight: 700;
+    font-size: 30px;
+}
+.detail-control .order{
+    width: 100%;
+    overflow: hidden;
+}
+.detail-control .order .left-button{
+    width: 50%;
+    height: 60px;
+    float: left;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+.detail-control .order .right-button{
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+    padding: 6px 12px;
+    float: right;
+}
+.footer{
+    width: 100%;
+    margin-top: 80px;
+}
+.box{
+    border: 1px solid #888;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.position{
+    position: absolute;
+    top:  0px;
+    left: -52px;
+}
+
+.writer{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.write{
+    resize: vertical;
+    width: 100%;
+}
+.form-left{
+    float: left;
+}
+.form-left input{
+    display: block;
+    margin-top: 5px;
+}
+.regest-button{
+    float: right;
+    
+}
+
+.wrap{
+    width: 1170px;
+    margin: 0 auto;
+}
