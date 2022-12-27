@@ -89,7 +89,6 @@ body{
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
-
 }
 
 .write{
@@ -105,10 +104,19 @@ body{
 }
 .regest-button{
     float: right;
-    
 }
 
-.wrap{
-    width: 1170px;
+.wrap-high{
+    width: px;
     margin: 0 auto;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.wrap-low{
+    position: relative;
+    border: 1px solid #888;
+}
+.position2{
+    position: absolute;
 }
